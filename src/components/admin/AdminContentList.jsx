@@ -1,9 +1,10 @@
-const AdminContentList = () => {
+const AdminContentList = (props) => {
+  const { key, number, title, date } = props;
   return (
-    <div className="admin-notice-list flex">
-      <div className="admin-notice-number">1</div>
-      <div className="admin-notice-title">fdfd</div>
-      <div className="admin-notice-date">2022-02-22</div>
+    <div className="admin-content-list flex" key={key}>
+      <div className="admin-content-number">{number}</div>
+      <div className="admin-content-title">{title}</div>
+      <div className="admin-content-date">{date}</div>
     </div>
   );
 };
