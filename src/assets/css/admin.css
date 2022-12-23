@@ -1,0 +1,21 @@
+.admin-left {
+  width: 244px;
+  height: calc(100vh - 70px);
+  border-right: 0.75px solid black;
+}
+
+.admin-nav {
+  width: 200px;
+  margin-top: 10px !important;
+  background-color: #244497;
+}
+
+.admin-nav nav {
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
