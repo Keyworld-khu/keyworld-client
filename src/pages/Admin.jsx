@@ -1,21 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/layout/Header";
 
 import "../assets/css/admin.css";
+import AdminNav from "../components/admin/AdminNav";
+import AdminContent from "../components/admin/AdminContent";
 
 const Admin = () => {
+  const [nav, setNav] = useState("공지");
+
   return (
     <div className="admin">
       <Header />
       <div className="flex">
-        <div className="admin-left">
-          <div className="admin-nav mr-0 fw-600">
-            <nav>공지</nav>
-            <nav>기술 정보</nav>
-            <nav>제품 소개</nav>
-            <nav>고객지원</nav>
-          </div>
-        </div>
+        <AdminNav setNav={setNav} />
+        <AdminContent nav={nav} />
       </div>
     </div>
   );

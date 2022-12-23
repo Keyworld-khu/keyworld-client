@@ -6,8 +6,16 @@
   display: flex;
 }
 
+.f-30 {
+  font-size: 30px;
+}
+
 .fw-600 {
   font-weight: 600;
+}
+
+.bg-color {
+  background-color: #244497;
 }
 
 body {
