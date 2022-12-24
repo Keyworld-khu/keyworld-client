@@ -11,7 +11,7 @@ const AdminSupport = () => {
       <Header />
       <div className="flex">
         <AdminNav />
-        <AdminContent title="고객지원" />
+        <AdminContent title="고객지원" display="none" />
       </div>
     </div>
   );

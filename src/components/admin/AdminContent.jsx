@@ -27,12 +27,14 @@ export const DUMMY = [
 ];
 
 const AdminContent = (props) => {
-  const { title } = props;
+  const { title, display } = props;
 
   return (
     <div className="admin-content">
       <div className="admin-content-header bg-color f-30">{title}</div>
-      <Button />
+      <div className={display}>
+        <Button />
+      </div>
       <div className="admin-content-main">
         {DUMMY.map((item) => (
           <AdminContentList

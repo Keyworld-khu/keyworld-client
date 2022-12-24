@@ -22,6 +22,10 @@
   background-color: #244497;
 }
 
+.none {
+  display: none;
+}
+
 body {
   width: 100%;
   height: 100%;
