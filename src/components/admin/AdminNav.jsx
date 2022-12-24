@@ -27,19 +27,19 @@ const AdminNav = () => {
           }
         >
           <Link
-            to={`${"/admin/tech/authentication"}`}
+            to={`${"/admin/authentication"}`}
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             <nav className="admin-tech-nav">인증서</nav>
           </Link>
           <Link
-            to={`${"/admin/tech/patent"}`}
+            to={`${"/admin/patent"}`}
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             <nav className="admin-tech-nav">특허</nav>
           </Link>
           <Link
-            to={`${"/admin/tech/inspection"}`}
+            to={`${"/admin/inspection"}`}
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             <nav className="admin-tech-nav">검사 설비</nav>
