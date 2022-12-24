@@ -102,3 +102,63 @@
   text-align: center;
   justify-content: center;
 }
+
+.admin-register-container {
+  margin: 0 55px;
+  height: 850px;
+}
+
+.admin-register-title-input input {
+  margin: 10px 0 20px 0;
+  width: 100%;
+  height: 45px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.admin-register-content {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  height: 750px;
+  resize: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.admin-register-btn {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 55px;
+  float: right;
+}
+
+.admin-product-list {
+  border-bottom: 0.75px solid #000;
+  width: 100%;
+  height: 130px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.admin-content-img img {
+  width: 187px;
+  height: 120px;
+}
+
+.admin-product-number {
+  width: 60px;
+  height: 100%;
+  margin-top: 44px;
+  text-align: center;
+}
+
+.admin-product-title {
+  padding: 44px 0;
+  box-sizing: border-box;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 80%;
+}

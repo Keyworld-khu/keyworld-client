@@ -1,8 +1,8 @@
 import React from "react";
 
 import "../assets/css/admin.css";
-import AdminContent from "../components/admin/AdminContent";
 import AdminNav from "../components/admin/AdminNav";
+import AdminProductContent from "../components/admin/AdminProductContent";
 import Header from "../components/layout/Header";
 
 const AdminProduct = () => {
@@ -11,7 +11,7 @@ const AdminProduct = () => {
       <Header />
       <div className="flex">
         <AdminNav />
-        <AdminContent title="제품 소개" />
+        <AdminProductContent title="제품 소개" />
       </div>
     </div>
   );
